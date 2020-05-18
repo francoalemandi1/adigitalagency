@@ -1,0 +1,300 @@
+@charset "utf-8";
+
+.header{
+    background-color: black;
+}
+
+header section div.container{
+    padding: 150px;
+}
+
+header nav div a img{
+    width: 50px;
+    height: 100px;
+}
+
+.navbar{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.navbar-item{
+    color: grey;
+ 
+    margin: 5px;
+}
+
+div.navbar-dropdown{
+    border-radius: 8px;
+}
+
+a.navbar-item:hover{
+    color: crimson;
+
+    background-color: black;
+}
+
+.navbar-dropdown a.navbar-item:hover{
+    color: crimson;
+
+
+}
+
+
+.trydo{
+    color: white;
+
+    font-size: 30px;
+    font-family: Poppins, sans-serif;
+    font-weight: lighter;
+
+    cursor: pointer;
+}
+span{
+    color: crimson;
+    font-size: 60px;
+    font-weight: bolder;
+    line-height: 10px;
+}
+
+.home{
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.service{
+    color: crimson;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+h1{
+        color: black;
+        font-size: 60px;
+        font-weight: bolder;
+
+        margin-top: 100px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: lighter;
+    line-height: 30px;
+    color: grey;
+    
+    margin: 24px;
+
+    text-align: justify;
+}
+
+h2{
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+
+    margin: 24px;
+
+}
+
+article{
+    margin-bottom: 120px;
+}
+
+.fa-laptop{
+    color: crimson;
+    font-size: 36px;
+
+    margin: 24px;
+}
+
+.fa-lightbulb{
+    color: crimson;
+    font-size: 36px;
+
+    margin: 24px;
+}
+
+.fa-database{
+    color: crimson;
+    font-size: 36px;
+
+    margin: 24px;
+}
+
+.fa-map{
+    color: crimson;
+    font-size: 36px;
+
+    margin: 24px;
+}
+.fa-cube{
+    color: crimson;
+    font-size: 36px;
+
+    margin: 24px;
+}
+.fa-poll{
+    color: crimson;
+    font-size: 36px;
+
+    margin: 24px;
+}
+
+.fa-map{
+    color: crimson;
+    font-size: 36px;
+
+    margin: 24px;
+}
+
+.hover-needed:hover{
+    background: crimson;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b43a40",endColorstr="#fc6045",GradientType=1);
+    transition: 1s;
+    transform: scale(1.03);
+
+    border: transparent;
+    border-radius: 12px;
+
+    cursor: pointer;
+}
+
+.hover-needed:hover p{
+    color: white;
+
+    transition: 1s;
+}
+
+.hover-needed:hover h2{
+    color: white;
+
+    transition: 0.5s;
+}
+div.hover-needed:hover .fa-laptop{
+    color: white;
+
+    transition: 0.5s;
+}
+
+div.hover-needed:hover .fa-lightbulb{
+    color: white;
+
+    transition: 0.5s;
+}
+div.hover-needed:hover .fa-database{
+    color: white;
+
+    transition: 0.5s;
+}
+div.hover-needed:hover .fa-cube{
+    color: white;
+
+    transition: 0.5s;
+}
+div.hover-needed:hover .fa-poll{
+    color: white;
+
+    transition: 0.5s;
+}
+
+div.hover-needed:hover .fa-map{
+    color: white;
+
+    transition: 0.5s;
+}
+
+footer div.column.is-half{
+    padding: 90px;
+
+    margin-top: -70px;
+
+    border-radius: 0 12px 0 0;
+}
+
+footer div p{
+    color: white;
+    font-size: 24px;
+    font-weight: lighter;
+
+    margin: 5px;
+}
+
+footer div h4{
+    font-size: 72px;
+    font-weight: bolder;
+    
+    color: white;
+
+    line-height: 80px;
+
+    margin: 0;
+}
+
+footer div a{
+    text-decoration: none;
+    color: white;
+
+    margin: 8px;
+}
+
+.contact-button{
+    text-transform: uppercase;
+    border: solid;
+    border-radius: 6px;
+    border-color: white;
+    border-width: 2px;
+    padding: 10px;
+   
+   
+
+    cursor: pointer;
+    height: 50px;
+
+    width: 140px;
+
+    margin-top: 20px;
+}
+
+.contact-button:hover{
+    transition: 0.6s;
+
+    background-color: white;
+
+    transform: scale(1.05);
+}
+
+.contact-button:hover a{
+    color: crimson;
+}
+
+footer div h6{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+    margin: 5px;
+}
+
+footer div li{
+    padding-top: 20px;
+
+    list-style-type: none;
+
+    margin: 10px;
+
+}
+footer div.column.is-one-quarter{
+    padding: 100px;
+}
+
+.gmail{
+    position: relative;
+    left: -15px;
+}
+
+
+
+
+
+
+
